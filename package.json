@@ -1,0 +1,72 @@
+{
+  "name": "hub4u-menu",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "author": "Francismar Araujo <francismarsaraujo@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "quasar build -m pwa",
+    "dev": "quasar dev -m pwa",
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.3",
+    "@vee-validate/i18n": "^4.5.11",
+    "@vee-validate/rules": "^4.5.11",
+    "axios": "^0.27.2",
+    "core-js": "^3.22.7",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "quasar": "^2.7.1",
+    "ramda": "^0.28.0",
+    "vee-validate": "^4.5.11",
+    "vue": "^3.2.37",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-i18n": "^9.2.0-beta.35",
+    "vue-property-decorator": "^10.0.0-rc.3",
+    "vue-router": "^4.0.16",
+    "vue3-styled-components": "^1.2.1",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@intlify/eslint-plugin-vue-i18n": "^0.15.0",
+    "@quasar/app-webpack": "3.12.3",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^10.17.60",
+    "@types/ramda": "^0.28.13",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "dotenv": "^16.0.1",
+    "electron": "^28.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "workbox-webpack-plugin": "^6.6.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
