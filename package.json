@@ -16,6 +16,7 @@
     "@vee-validate/i18n": "^4.5.11",
     "@vee-validate/rules": "^4.5.11",
     "axios": "^0.27.2",
+    "ajv": "^6.12.6",
     "core-js": "^3.22.7",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.3",
